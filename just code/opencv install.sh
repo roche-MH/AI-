@@ -32,7 +32,7 @@ cd opencv-3.4.0
 mkdir build
 cd build
 
-cmake -D CMAKE_BUILD_TYPE=RELEASE 
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D BUILD_opencv_cudacodec=OFF \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D WITH_TBB=OFF \
